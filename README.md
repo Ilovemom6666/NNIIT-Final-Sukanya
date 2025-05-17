@@ -12,17 +12,20 @@ Task 1:
 
 Add Flashcard with Subject Inference
 Create a POST endpoint /flashcard that accepts:
+
 {
   "student_id": "stu001",
   "question": "What is Newton's Second Law?",
   "answer": "Force equals mass times acceleration"
 }
+
 The backend infers the subject (e.g., "Physics") based on the question and stores:
 student_id
 question
 answer
 subject
 Return a confirmation message along with the inferred subject.
+
 
 Task 2:
 
