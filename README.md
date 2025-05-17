@@ -8,7 +8,7 @@ You need to build a backend for a smart flashcard system. Users add flashcards c
 Students can later request flashcards by subject, and the system should return a mixed batch of flashcards intelligently.
 
 Tasks
-Task 1:
+- Task 1:
 
 Add Flashcard with Subject Inference
 Create a POST endpoint /flashcard that accepts:
@@ -35,7 +35,7 @@ student_id
 limit (number of flashcards to return)
 Return up to limit flashcards for the specified student, mixing subjects randomly.
 
-How It Works ?
+-  How It Works ?
 1.Adding Flashcards
 I created a POST endpoint /flashcard where users send the student ID, question, and answer.
 
