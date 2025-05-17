@@ -2,8 +2,8 @@
 
 This is the backend for my smart flashcard system project. The goal is to let users add flashcards with just questions and answers, and the system will automatically figure out the subject of each flashcard. Later, students can request flashcards from different subjects, and the API will return a mixed batch for effective studying.
 
-Problem Statement:
-You need to build a backend for a smart flashcard system. Users add flashcards containing a question and answer but do not specify the subject. The backend must automatically determine the subject based on the question text using keyword matching or a classification model.
+**Problem Statement:**
+- You need to build a backend for a smart flashcard system. Users add flashcards containing a question and answer but do not specify the subject. The backend must automatically determine the subject based on the question text using keyword matching or a classification model.
 
 Students can later request flashcards by subject, and the system should return a mixed batch of flashcards intelligently.
 
